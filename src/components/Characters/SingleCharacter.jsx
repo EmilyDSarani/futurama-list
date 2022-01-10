@@ -1,0 +1,1 @@
+//this will literally just render how the detail page is going to look

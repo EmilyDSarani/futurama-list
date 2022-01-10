@@ -1,0 +1,1 @@
+//Will jsut have some cute message and a Link or Button that takes user to the list page
