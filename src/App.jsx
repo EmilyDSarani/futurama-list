@@ -9,7 +9,7 @@ import List from './views/Characters/List';
 export default function App() {
   return(
     <Switch>
-      <Route path="/characters/:name/5">
+      <Route path="/characters/:id">
         <Details />
       </Route>
       <Route path="/characters">

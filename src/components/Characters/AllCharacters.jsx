@@ -1,21 +1,18 @@
 //Will figure out the list magic here
 //probably will need a link to the character detail page
-import React from 'react'
+import { Link } from 'react-router-dom'
 
-export default function AllCharacters({characters}) {
+export default function AllCharacters({ characters }) {
     return (
-        <ul>
-            {characters.map((character) =>(
-                <li>
-                    <Link to={`/characters/${character.name}/5`}>
-                        <div>
-                            <img src={character.image}
-                                alt={character.name} />
-                            <h1>{character.name}</h1>
-                            <h2>{character.species}</h2>
-                            <h3>{character.age}</h3>
-                        </div>
-                    </Link>
+        <ul aria-label="characters">
+            {characters.map((character, i) =>(
+                <li key={character.Name + i}>
+                    <Link to={`/characters/${character.id}`}>
+                            <img src={character.PicUrl}
+                                alt={character.Name} />
+                            <h1>{character.Name}</h1>
+                    </Link>        
+                        
                 </li>
             ))}
         </ul>
