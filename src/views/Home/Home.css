@@ -4,20 +4,28 @@
     src: url(//db.onlinewebfonts.com/c/3d20efacfeaf02b55cc8b7b9f1f4d5cd?family=Futurama+Bold+Font);
 }
 body{
-    background-color: var(--deep-champagne);
     display: grid;
     justify-content: center;
-    margin: 10rem;
+    margin: 5px;
 }
 
 .header{
     font:bolder;
     font-weight:800;
     font-family:'Nunito';
-    color:var(--international-orange-golden-gate-bridge)
+    color:var(--international-orange-golden-gate-bridge);
+ 
+
 }
 
 .headertwo{
     font-family: 'Nunito';
-    color:var(--viridian)
+    color:var(--viridian);
+  
 }
+
+.overall{
+    border: double 5px var(--independence);
+    background-color: var(--deep-champagne);
+}
+

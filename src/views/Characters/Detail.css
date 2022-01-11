@@ -1,0 +1,12 @@
+button {
+    transition-duration: 0.75s;
+    background-color: var(--ghost-white);
+    color: var(--independence);
+    border-radius: 45%;
+  }
+  
+  button:hover {
+    background-color: var(--independence); 
+    color: var(--ghost-white);
+    cursor: pointer;
+  }

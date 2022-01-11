@@ -1,0 +1,48 @@
+@import '../../App.css';
+
+
+body{
+    margin: 5%;
+}
+img{
+    width: 100px;
+}
+
+@media (min-width: 700px) {
+    .list {
+      grid: 1fr / 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .list {
+      grid: 1fr / 1fr 1fr;
+    }
+  }
+  
+.character{
+    padding: 5%;
+    margin: 10%;
+    border: double 5px var(--independence);
+    background-color: var(--deep-champagne);
+    width: 100%;
+
+}
+.biglist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.list:hover{
+    transition: transform .5s ease-in-out;
+    transform: translate(20px, 20px);
+    
+    
+}
+.list{
+    padding: 5%;
+    border: double 5px var(--independence);
+    background-color: var(--deep-champagne);
+   
+}

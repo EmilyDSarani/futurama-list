@@ -1,0 +1,7 @@
+.headerName{
+    border-radius:5%;
+    font:bolder;
+    font-weight:800;
+    font-family:'Nunito';
+    color:var(--independence);
+}

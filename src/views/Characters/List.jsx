@@ -5,6 +5,8 @@ import { useEffect, useState} from 'react';
 import AllCharacters from '../../components/Characters/AllCharacters';
 import { getCharacters } from '../../services/futuramaApi';
 import { useCharacter } from '../../context/CharacterContext';
+import styles from './List.css'
+
 
 export default function List() {
     const { characters, setCharacters } = useCharacter([])
@@ -38,7 +40,7 @@ export default function List() {
 
     return (
         <>
-            <h1>Characters
+            <h1 className={styles.headerName}>Characters
                 {loading && (<img src='https://i.gifer.com/2vDa.gif' alt="bender dancing"/>)}
             </h1>
             {!loading && <AllCharacters characters={characters}/>}

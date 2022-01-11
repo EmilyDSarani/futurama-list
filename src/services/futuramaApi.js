@@ -8,10 +8,10 @@ export const getCharacters = async () => {
 }
 
 //fetch character quotes
-export const getCharacterSearch = async (id) => {
-    const res = await fetch(`https://futuramaapi.herokuapp.com/api/v2/characters/${id}`);
+export const getCharacterSearch = async (name) => {
+    const res = await fetch(`https://futuramaapi.herokuapp.com/api/v2/characters?search=${name}`);
     const character = await res.json();
-    return character
+    return character[0]
 }
 
 export const getCharacterQuote = async () => {
