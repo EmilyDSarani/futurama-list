@@ -1,0 +1,23 @@
+@import '../../App.css';
+@font-face {
+    font-family: "Futurama Bold Font";
+    src: url(//db.onlinewebfonts.com/c/3d20efacfeaf02b55cc8b7b9f1f4d5cd?family=Futurama+Bold+Font);
+}
+body{
+    background-color: var(--deep-champagne);
+    display: grid;
+    justify-content: center;
+    margin: 10rem;
+}
+
+.header{
+    font:bolder;
+    font-weight:800;
+    font-family:'Nunito';
+    color:var(--international-orange-golden-gate-bridge)
+}
+
+.headertwo{
+    font-family: 'Nunito';
+    color:var(--viridian)
+}

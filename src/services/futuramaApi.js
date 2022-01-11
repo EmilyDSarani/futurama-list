@@ -9,7 +9,7 @@ export const getCharacters = async () => {
 
 //fetch character quotes
 export const getCharacterQuotes = async () => {
-    const res = await fetch('futuramaapi.herokuapp.com/api/characters/<character name>')
+    const res = await fetch('futuramaapi.herokuapp.com/api/characters/<character name>/<count>')
     const quotes = await res.json();
     return quotes
 }
