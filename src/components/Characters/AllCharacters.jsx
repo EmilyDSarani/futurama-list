@@ -9,7 +9,7 @@ export default function AllCharacters({ characters }) {
             {characters.map((character, i) =>(
                 <li className={styles.list} key={character.Name + i}>
                     <Link to={`/characters/${character.Name}`}>
-                            <img src={character.PicUrl}
+                            <img className="image" src={character.PicUrl}
                                 alt={character.Name} />
                             <button><h1>{character.Name}</h1></button>
                     </Link>        
