@@ -8,6 +8,7 @@ export default function SingleCharacter({ character }) {
     console.log(character)
     return (
         <div className={styles.character}>
+             <h1 className={styles.headerName}>Character:</h1>
             <img src={PicUrl} alt={Name} />
             <h1 className={styles.content}>Name: {Name}</h1>
             <h2>Species: {Species}</h2>
