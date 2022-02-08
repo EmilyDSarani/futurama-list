@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render characters 1`] = `
+<div>
+  <ul
+    aria-label="characters"
+    class="biglist"
+  >
+    <li
+      class="list"
+    >
+      <a
+        href="/characters/undefined"
+      >
+        <img
+          class="image"
+        />
+        <button>
+          <h1 />
+        </button>
+      </a>
+    </li>
+    <div
+      class="bg"
+    />
+    <div
+      class="bg2"
+    />
+    <div
+      class="bg3"
+    />
+    <div
+      class="content"
+    >
+       
+    </div>
+  </ul>
+</div>
+`;

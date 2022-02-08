@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+:root{
+--international-orange-golden-gate-bridge: #c03221ff;
+--ghost-white: #f7f7ffff;
+--deep-champagne: #f2d0a4ff;
+--independence: #545e75ff;
+--viridian: #3f826dff;
+}
+
+/* @media (min-width: 900px){
+    grid: 1fr/ 1fr 1fr 1fr 1fr;
+} */
+
+/* @media(max-width: 500px){
+    grid: 1fr/ 1fr 
+} */
+
+
+/* Free from https://codepen.io/chris22smith/pen/RZogMa */
+body{
+    font-family: 'Nunito';
+}
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-55deg, rgb(157, 255, 230) 50%, rgb(255, 166, 125) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}

@@ -82,10 +82,7 @@ module.exports = {
       },
       {
         test: /\.(jpeg|jpg|png|svg)$/,
-        use: {
-          loader: 'url-loader',
-          options: { limit: 1000 },
-        },
+        type: 'asset/resource',
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
