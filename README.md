@@ -1,7 +1,4 @@
-# react-template
-
-A starter template for React projects at Alchemy Code Lab. We'll be using this in the "Advanced React" portion of the program.
-
-## Getting Started
-
-Click "Use this template" to create a new repo with your user as the owner. Then clone down the newly created repo and get hacking!
+## Futurama?!
+This app allows users to click through different futurama characters and see more information about these characters on a character detail page. 
+Testing was used to make sure the app worked as intended.
+The API used for this app was: https://futuramaapi.herokuapp.com/
